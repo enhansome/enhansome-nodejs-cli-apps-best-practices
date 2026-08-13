@@ -1,0 +1,185 @@
+{
+  "items": [
+    {
+      "description": "A bad CLI can easily discourage users from interacting with it. Building successful CLIs requires attention to detail and empathy for the user in order to create a good user experience. It is very easy to get wrong.\nIn this guide I have compiled a list of best practices across areas of focus which aim to optimize for an ideal user experience when interacting with a CLI application.",
+      "items": [],
+      "title": "Why this guide?"
+    },
+    {
+      "description": "Hi there, I'm Liran Tal and I'm addicted to building command line applications.\nSome of my recent work, building Node.js CLIs, includes the following Open Source projects:",
+      "items": [],
+      "title": "Why me?"
+    },
+    {
+      "description": "✅ Do: Put workflows in place that assist the user to interact with the CLI successfully, when otherwise such interactions would result in errors and frustration.\n❌ Otherwise: Failing to provide actionable assistance in supporting the user will result in frustration due to the lack of capability to operate the CLI.\nℹ️ Details\nA command line interface for your program is no different than a web user interface in the sense of doing as much as you can as the program author to ensure that it is being used successfully.\nOptimize for successful interactions by building empathic CLIs that support the user. As an example, let's explore the case of the program that expects a URL as its primary data input, and the user failing to provide it. Such failure will lead to reading through a (hopefully) descriptive error messages or reviewing a output. However, an empathic CLI would have presented an interactive prompt to capture input from the user, resulting in a successful interaction.\nInteractive recovery is only empathetic when the invocation is actually interactive. If the CLI is running in CI, a scheduled job, or a pipeline, skip prompts and provide an actionable error that explains which flag, environment variable, or configuration file can provide the missing value instead.",
+      "items": [],
+      "title": "1.2 Build empathic CLIs"
+    },
+    {
+      "description": "✅ Do: Ensure your program respects POSIX signals to allow it proper interaction with users or other programs.\n❌ Otherwise: Your program will not play well with other programs and introduce unexpected behavior.\nℹ️ Details\nEspecially for CLI applications, it is common to interact with user input and improperly managing keyboard events may result in your app failing to respond to SIGINT interrupts, commonly used by users when they hit the keys.\nThe problem of not respecting process signals worsens when the program is being orchestrated by non-human interaction. For example, a CLI that runs in a docker container but will not respond to software interrupt signals sent to it.",
+      "items": [],
+      "title": "1.8 Respect POSIX signals"
+    },
+    {
+      "description": "✅ Do: For command line applications that are expected to work with data, make it easy for a user to pipe the data to standard input (STDIN).\n❌ Otherwise: Other command line applications will not be able to provide their result, directly as input for your CLI, which prevents common UNIX one-liners such as:\nℹ️ Details\nIf the command line application works with data, such as performing some kind of task on a JSON file that is usually specified with command line argument.\nAn example that is based on the official Node.js API docs for the readline module of how taking input from a command pipe is as follows:\nThen pipe the input to the above Node.js application:\nIf the command needs to ask a human a question instead, keep that behavior separate from piped input and follow Gate interactive behavior.",
+      "items": [],
+      "title": "3.1 Accept input as STDIN"
+    },
+    {
+      "description": "✅ Do: Enable a flag to allow structured output of the app's result, if such result is available, to enable parsing and easy manipulation of the data.\n❌ Otherwise: Users of the CLI may need to apply complicated regex parsing and matching techniques to extract the output data provided by your CLI.\nℹ️ Details\nIt is often useful for users of a command line application to parse the data and perform other tasks with it, such as using it to feed web dashboards, or email notifications.\nBeing able to easily extract the data of interest from a command line output provides a friendlier experience to users of your CLI.",
+      "items": [],
+      "title": "3.2 Enable structured output"
+    },
+    {
+      "description": "✅ Do: If a CLI is expected to function across platforms, proper attention must be given to semantics of command shells, and components such as file systems, along with developers leveraging relevant programming constructs.\n❌ Otherwise: The CLI will break on other operating systems due to factors such as incorrect path separator characters, even though there are no functional differences in the code.\nℹ️ Details\nEven though, from a program's perspective, the functionality isn't being stripped down and should execute well in different operating systems, some missed nuances may render the program inoperable. Let's explore several cases where cross-platform ethics must be honored.",
+      "items": [],
+      "title": "3.3 Cross-platform etiquette"
+    },
+    {
+      "description": "You might need to spawn a process that runs a Node.js program. For example, you have the following script:\n\nThis works:\nThis is better:\nWhy is it better? The source code begins with the Unix-like Shebang notation, however Windows doesn't know how to interpret this due to the fact that Shebang isn't a cross-platform standard.\nThis is also true for scripts. Consider the following bad practice of defining an npm run script:\nThis is due to the fact that the Shebang in will not help Windows understand how to run this with the interpreter.\nInstead, follow the best practice of:",
+      "items": [],
+      "title": "Wrongly spawning a command"
+    },
+    {
+      "description": "Not all characters are treated the same across different shell interpreters.\nFor example, the Windows command prompt doesn't treat a single quote the same as a double quote, as would be expected on a bash shell, and so it doesn't recognize that the whole string inside a single quote belongs to the same string group, which will lead to errors.\nThis will fail in a Windows Node.js environment that uses the Windows command prompt:\npackage.json\nTo fix this so that this script will indeed be cross-platform between Windows, macOS and Linux:\npackage.json\nIn this example we had to use double quotes and escape them with the JSON notation.",
+      "items": [],
+      "title": "Shell interpreters vary"
+    },
+    {
+      "description": "Paths are constructed differently across different platforms. When they are built manually by concatenating strings they are bound not to be interoperable between different platforms.\nLet's consider the following bad practice example:\nIt assumes that forward slash is the path separator where on Windows, for example, a backslash is used.\nInstead of manually building filesystem paths, defer to Node.js's own module to do this:",
+      "items": [],
+      "title": "Avoid concatenating paths"
+    },
+    {
+      "description": "Linux shells are known to support a semicolon () to chain commands to run sequentially, such as: . However, doing the same on Windows will fail.\nAvoid doing the following:\nInstead, use the double ampersand or double pipe notations:",
+      "items": [],
+      "title": "Avoid chaining commands with semicolons"
+    },
+    {
+      "description": "✅ Do: Send the command's primary output to standard output (STDOUT), and send diagnostics such as progress, warnings, debug logs, prompts, and errors to standard error (STDERR).\n❌ Otherwise: Users who pipe or parse your CLI output may receive mixed data and diagnostics, causing scripts, JSON parsers, and other command line tools to fail unexpectedly.\nℹ️ Details\nSTDERR is not only for errors. It is the side channel for human-facing or diagnostic messages that should remain visible to the user without becoming part of the command's data output. This distinction is especially important for commands that support structured output, because output such as must stay valid JSON.\nUse or for the actual command result. Use or for progress messages, warnings, debug information, prompts, and error messages.\nExample:",
+      "items": [],
+      "title": "3.6 Distinguish STDOUT from STDERR"
+    },
+    {
+      "description": "✅ Do: For CLIs with subcommands, many flags, or dynamic operands, provide opt-in shell completion so users can discover valid commands, options, and values from their shell.\n❌ Otherwise: Users need to memorize flags, repeatedly inspect , or guess command names and option values that the CLI already knows how to validate.\nℹ️ Details\nShell completion is activated by the user's shell, but the CLI author usually owns the command metadata that makes completion useful. Keep completions generated from the same command, option, and subcommand definitions used by your parser and help output so they do not drift from real behavior.\nExpose completion through an explicit command such as or , and document supported shells. Bash, Zsh, Fish, and PowerShell have different completion systems, so avoid implying one generated script works everywhere.\nExample:\nIf the shell invokes your CLI to compute contextual candidates, write only completion candidates to STDOUT and keep diagnostics, warnings, and debug output on STDERR. This mirrors Distinguish STDOUT from STDERR and keeps shell completion parsers from receiving noisy output.\nCompletion setup should be explicit and reversible. Do not mutate , , PowerShell profiles, or other shell startup files from npm lifecycle scripts. Provide a documented command or generated script instead, and let users choose whether and where to install it.\nReference options:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "yargs",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-07T03:15:41Z",
+            "owner": "yargs",
+            "repo": "yargs",
+            "stars": 11509
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tabtab",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2023-01-04T14:33:56Z",
+            "owner": "mklabs",
+            "repo": "tabtab",
+            "stars": 378
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "@oclif/plugin-autocomplete",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-10T14:56:56Z",
+            "owner": "oclif",
+            "repo": "plugin-autocomplete",
+            "stars": 94
+          }
+        }
+      ],
+      "title": "3.7 Provide shell completion"
+    },
+    {
+      "description": "✅ Do: Create a docker image for the CLI and publish it to a public registry like Docker Hub so that users without a Node.js environment can use it.\n❌ Otherwise: Users without a Node.js environment will not have or available, and so won't be able to run your CLI application.\nℹ️ Details\nInstalling Node.js CLI applications from the npm registry will typically be done with Node.js native toolchain such as or . These are common across JavaScript and Node.js developers, and are expected to be referenced within install instructions.\nHowever, if you are targeting a CLI application to be consumed by the general public, regardless of their familiarity with JavaScript, or availability of this tooling, then distributing your CLI application only in the form of an install from the npm registry will be restricting. If your CLI application is intended to be used in a build or CI environment then those may also be required to install Node.js related toolchain dependencies.\nThere are many ways to package and distribute an executable, and containerizing it as a Docker container that is pre-bundled with your CLI application is an easily consumable alternative and dependency-free (aside of requiring a Docker environment).",
+      "items": [],
+      "title": "4.1 Containerize the CLI"
+    },
+    {
+      "description": "✅ Do: Target supported and maintained Node.js versions.\n❌ Otherwise: A code-base that tries to stay compatible with older and unsupported Node.js versions will be difficult to maintain, and lose the benefits of language and runtime features.\nℹ️ Details\nSometimes it may be necessary to specifically target older Node.js versions that are missing new ECAMScript features. For example, if you are building a Node.js CLI that is mostly geared towards DevOps or IT, they may not have an ideal Node.js environment with an up to date runtime. As a reference, Debian Stretch (oldstable) ships with Node.js 8.11.1.\nIf you do need to target old versions of Node.js such as Node.js 8, 6 or 4, all of which are End of Life, prefer to use a transpiler such as Babel to make sure the generated code is compliant with the version of the V8 JavaScript engine and the Node.js run-time shipped with those versions.\nAnother workaround is to provide a containerized version of the CLI to avoid old targets. See Section (4.1) Containerize the CLI.\nDon't dumb down your program code to use an older ECMAScript language specification that matches unmaintained or EOL Node.js versions as this will only lead to code maintenance issues.\nIf the CLI is invoked in an unsupported environment, attempt to detect it and exit with a descriptive error message to present a friendly and information error message. See this example for dockly.",
+      "items": [],
+      "title": "4.3 Node.js versions compatibility"
+    },
+    {
+      "description": "✅ Do: When reporting errors, provide trackable error codes that can be looked up in the project's documentation and simplify troubleshooting the error message.\nIf possible, extend trackable error codes with further information so these can be easily parsed and context is clear.\n❌ Otherwise: Generic error messages tend to be ambiguous and make it hard for users to search for solutions. Parsing and analyzing isn't as straight-forward, and referencing them in documentation is not as clean either.\nℹ️ Details\nEnsure that, when error messages are returned, they include a reference number or specific error codes that can later be consulted. Much like HTTP status codes, so to do CLI applications require named or coded errors.\nExample:",
+      "items": [],
+      "title": "6.1 Trackable errors"
+    },
+    {
+      "description": "✅ Do: A failing error message should tell the user what is required as a fix, rather than complaining that there is an error.\n❌ Otherwise: Users facing error messages, with no hint of the action to resolve the error, may not be able to successfully use your CLI app.\nℹ️ Details\nExample:",
+      "items": [],
+      "title": "6.2 Actionable errors"
+    },
+    {
+      "description": "✅ Do: Use an object to define the name of the executable and its path.\n❌ Otherwise: You will end up coupling the name of the package with the executable.\nℹ️ Details\nThe following shows an example of decoupling the name of the executable from the filename and its location in the project:",
+      "items": [],
+      "title": "7.1 Use a bin object"
+    },
+    {
+      "description": "✅ Do: Use a proper flag to allow users to check the application's version easily.\n❌ Otherwise: Users won't know which version they are using, making it challenging to track updates or report issues accurately.\nℹ️ Details\nAs the maintainer of the CLI project, you need to implement a functionality to display the program's version on standard output with the proper flag without any argument, and exit from the program(often also prints compiled-in configuration details as well). You can also use the as the short flag.\nExample:",
+      "items": [],
+      "title": "9.1. Include a Flag"
+    },
+    {
+      "description": "✅ Do: Like other projects, use the SemVer format. It provides a clear, standardized way to convey version information, making it easier for users to understand the significance of updates.\n❌ Otherwise: Users might not understand the impact of updates, leading to confusion or unexpected behavior.",
+      "items": [],
+      "title": "9.2. Use Semantic Versioning"
+    },
+    {
+      "description": "✅ Do: Try to add version information in file because this ensures consistency across your project and makes it easy to automate version updates.\n❌ Otherwise: You and your program's users will face difficulty in tracking dependencies and managing the project's version.\nℹ️ Details\nTools like or offer version management features that simplify handling dependencies and versioning.",
+      "items": [],
+      "title": "9.3. Provide Version Information in a 'package.json' file"
+    },
+    {
+      "description": "✅ Do: Provide the version in error messages so that users can include version information when reporting issues, aiding debugging and support.\n❌ Otherwise: Debugging becomes more challenging, and users might not know which version to reference when seeking help or even when they use your program as a dependency on other programs.",
+      "items": [],
+      "title": "9.4. Display Version in Error Messages and Help Text"
+    },
+    {
+      "description": "✅ Do: Ensuring backward compatibility with older versions of your app allows users to upgrade without breaking their workflows.\n❌ Otherwise: Frequent updates that break compatibility can frustrate users and hinder adoption.\nℹ️ Details\nEnsure that, even when you remove any functionality or change the format of input/outputs, you come with some description for the user.\nExample:",
+      "items": [],
+      "title": "9.5. Backward Compatibility"
+    },
+    {
+      "description": "✅ Do: Publish your app on npm with version tags enabling users to easily install specific versions.\n❌ Otherwise: Users can't access previous versions, which might be necessary for compatibility or troubleshooting.",
+      "items": [],
+      "title": "9.6. Publish Versioned Releases on npm"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "11.1 CLI Frameworks Table"
+    },
+    {
+      "description": "Please consult CONTRIBUTING for guidelines on contributing to this project.\nNode.js CLI Apps Best Practices © Liran Tal, Released under CC BY-SA 4.0 License.\nThis project follows the all-contributors specification. Contributions of any kind welcome!\n\n\nThis work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.",
+      "items": [],
+      "title": "Contributing"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:07:01.293Z",
+    "original_repository": "lirantal/nodejs-cli-apps-best-practices",
+    "original_repository_sha": "e6374e4f64a4708cc01d3a398cb15e532ab3d847",
+    "enhanced_repository": "enhansome/enhansome-nodejs-cli-apps-best-practices",
+    "enhanced_repository_description": null,
+    "title": "Awesome 1 Command Line Experience with stars"
+  }
+}
