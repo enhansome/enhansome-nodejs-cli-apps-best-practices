@@ -74,7 +74,7 @@
             "last_commit": "2026-08-07T03:15:41Z",
             "owner": "yargs",
             "repo": "yargs",
-            "stars": 11510
+            "stars": 11511
           }
         },
         {
@@ -99,7 +99,7 @@
           "repo_info": {
             "archived": false,
             "language": "TypeScript",
-            "last_commit": "2026-08-15T13:43:33Z",
+            "last_commit": "2026-08-16T08:51:24Z",
             "owner": "oclif",
             "repo": "plugin-autocomplete",
             "stars": 94
@@ -175,7 +175,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T17:52:10.485Z",
+    "last_updated": "2026-08-16T17:50:45.515Z",
     "original_repository": "lirantal/nodejs-cli-apps-best-practices",
     "original_repository_sha": "e6374e4f64a4708cc01d3a398cb15e532ab3d847",
     "enhanced_repository": "enhansome/enhansome-nodejs-cli-apps-best-practices",
