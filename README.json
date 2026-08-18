@@ -74,7 +74,7 @@
             "last_commit": "2026-08-07T03:15:41Z",
             "owner": "yargs",
             "repo": "yargs",
-            "stars": 11511
+            "stars": 11512
           }
         },
         {
@@ -175,7 +175,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T17:58:08.325Z",
+    "last_updated": "2026-08-18T17:58:04.918Z",
     "original_repository": "lirantal/nodejs-cli-apps-best-practices",
     "original_repository_sha": "e6374e4f64a4708cc01d3a398cb15e532ab3d847",
     "enhanced_repository": "enhansome/enhansome-nodejs-cli-apps-best-practices",
