@@ -15,7 +15,7 @@
             "last_commit": "2026-08-19T10:22:35Z",
             "owner": "tj",
             "repo": "commander.js",
-            "stars": 28365
+            "stars": 28364
           }
         },
         {
@@ -96,7 +96,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T12:42:22.471Z",
+    "last_updated": "2026-08-19T17:54:10.990Z",
     "original_repository": "lirantal/nodejs-cli-apps-best-practices",
     "original_repository_id": 230675887,
     "original_repository_sha": "e6374e4f64a4708cc01d3a398cb15e532ab3d847",
