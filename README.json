@@ -12,10 +12,10 @@
             "archived": false,
             "id": 2206953,
             "language": "JavaScript",
-            "last_commit": "2026-08-21T04:53:59Z",
+            "last_commit": "2026-08-24T04:05:39Z",
             "owner": "tj",
             "repo": "commander.js",
-            "stars": 28370
+            "stars": 28373
           }
         },
         {
@@ -30,7 +30,7 @@
             "last_commit": "2026-08-07T03:15:41Z",
             "owner": "yargs",
             "repo": "yargs",
-            "stars": 11514
+            "stars": 11515
           }
         }
       ],
@@ -39,6 +39,28 @@
     {
       "description": "This section deals with best practices concerned with making your Node.js CLI seamlessly integrate with other command line tools, and following conventions that are natural for CLIs to operate in.\nThis section answers questions such as:\nIn this section:",
       "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "cosmiconfig",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 45750507,
+                "language": "TypeScript",
+                "last_commit": "2026-08-02T10:57:43Z",
+                "owner": "cosmiconfig",
+                "repo": "cosmiconfig",
+                "stars": 4157
+              }
+            }
+          ],
+          "description": "✅ Do: Allow configuration to be obtained from multiple sources, by order of precedence. Command line arguments take highest priority, followed by shell variables, and then different levels of configuration.\n❌ Otherwise: Users face frustration when customizing their experience with the CLI.\nℹ️ Details\nDetect and support configuration setting using environment variables as this will be a common way in many toolchains to modify the behavior of the invoked CLI application.\nConfiguration order of precedence for command line applications should follow this:\nReference projects:",
+          "node_type": "group",
+          "title": "3.4 Support configuration precedence"
+        },
         {
           "children": [
             {
@@ -53,7 +75,7 @@
                 "last_commit": "2026-08-07T03:15:41Z",
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11514
+                "stars": 11515
               }
             },
             {
@@ -93,10 +115,255 @@
         }
       ],
       "title": "3 Interoperability"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "oclif",
+              "description": "A framework for building a command line interface. Link to npm Link to GitHub",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 117152902,
+                "language": "TypeScript",
+                "last_commit": "2026-08-10T14:16:01Z",
+                "owner": "oclif",
+                "repo": "oclif",
+                "stars": 9580
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "yargs",
+              "description": "A command line parser for complex CLIs with commands, options, generated help, and shell completion support. Link to npm Link to GitHub",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 14210523,
+                "language": "JavaScript",
+                "last_commit": "2026-08-07T03:15:41Z",
+                "owner": "yargs",
+                "repo": "yargs",
+                "stars": 11515
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "@inquirer/prompts",
+              "description": "A collection of common interactive command line user interfaces. Link to npm Link to GitHub",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 10114077,
+                "language": "TypeScript",
+                "last_commit": "2026-08-20T05:45:15Z",
+                "owner": "SBoudrias",
+                "repo": "Inquirer.js",
+                "stars": 21616
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ink",
+              "description": "Ink provides the same component-based UI building experience that React offers in the browser, but for command-line apps. Link to npm Link to Github",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 94061307,
+                "language": "TypeScript",
+                "last_commit": "2026-08-12T00:11:46Z",
+                "owner": "vadimdemedes",
+                "repo": "ink",
+                "stars": 39724
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "pastel",
+              "description": "Next.js-like framework for CLIs made with Ink. Link to npm Link to Github",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 182489651,
+                "language": "TypeScript",
+                "last_commit": "2026-03-21T09:49:14Z",
+                "owner": "vadimdemedes",
+                "repo": "pastel",
+                "stars": 2406
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ink UI",
+              "description": "Collection of customizable UI components for CLIs made with Ink. Link to npm Link to Github",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 633415187,
+                "language": "TypeScript",
+                "last_commit": "2024-05-22T12:20:07Z",
+                "owner": "vadimdemedes",
+                "repo": "ink-ui",
+                "stars": 2058
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "blessed",
+              "description": "A curses-like library with a high level terminal interface API for node.js. Link to npm Link to GitHub",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 7855340,
+                "language": "JavaScript",
+                "last_commit": "2024-03-22T10:02:56Z",
+                "owner": "chjj",
+                "repo": "blessed",
+                "stars": 11882
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "prompts",
+              "description": "Lightweight, beautiful and user-friendly interactive prompts Link to npm Link to GitHub",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 122728925,
+                "language": "JavaScript",
+                "last_commit": "2025-05-14T16:42:36Z",
+                "owner": "terkelg",
+                "repo": "prompts",
+                "stars": 9311
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "vue-termui",
+              "description": "A Vue.js based terminal UI framework that allows you to build modern terminal applications with ease. Link to npm Link to GitHub",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 461322233,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T15:10:18Z",
+                "owner": "vue-terminal",
+                "repo": "vue-termui",
+                "stars": 974
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "clack",
+              "description": "Effortlessly build beautiful command-line apps Link to npm Link to GitHub",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 599311541,
+                "language": "TypeScript",
+                "last_commit": "2026-08-20T01:59:46Z",
+                "owner": "bombshell-dev",
+                "repo": "clack",
+                "stars": 8019
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Optique",
+              "description": "Type-safe combinatorial CLI parser for TypeScript Link to npm Link to GitHub",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1040520976,
+                "language": "TypeScript",
+                "last_commit": "2026-08-24T12:14:53Z",
+                "owner": "dahlia",
+                "repo": "optique",
+                "stars": 729
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "11.1 CLI Frameworks Table"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Installation docs",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 515619101,
+                "language": "Go",
+                "last_commit": "2026-08-24T13:22:20Z",
+                "owner": "charmbracelet",
+                "repo": "vhs",
+                "stars": 20703
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link to GitHub",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 515619101,
+                "language": "Go",
+                "last_commit": "2026-08-24T13:22:20Z",
+                "owner": "charmbracelet",
+                "repo": "vhs",
+                "stars": 20703
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "@oclif/plugin-autocomplete",
+              "description": "An oclif plugin for generating shell autocomplete support. Link to npm Link to GitHub Add completion support to oclif-based CLIs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 133880916,
+                "language": "TypeScript",
+                "last_commit": "2026-08-22T13:43:11Z",
+                "owner": "oclif",
+                "repo": "plugin-autocomplete",
+                "stars": 94
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "tabtab",
+              "description": "Completion helpers for Node.js CLI programs. Link to npm Link to GitHub Build custom Bash, Zsh, and Fish completion flows.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 2593728,
+                "language": "JavaScript",
+                "last_commit": "2023-01-04T14:33:56Z",
+                "owner": "mklabs",
+                "repo": "tabtab",
+                "stars": 378
+              }
+            }
+          ],
+          "description": "CLI projects often need supporting tools beyond the libraries and frameworks used in the application code itself. These tools help with demos, documentation, release assets, and project maintenance.",
+          "node_type": "group",
+          "title": "11.2 CLI Tools Table"
+        }
+      ],
+      "title": "11 Appendix: CLI Frameworks and Tools"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T17:51:46.671Z",
+    "last_updated": "2026-08-24T13:57:09.850Z",
     "original_repository": "lirantal/nodejs-cli-apps-best-practices",
     "original_repository_id": 230675887,
     "original_repository_sha": "e6374e4f64a4708cc01d3a398cb15e532ab3d847",
