@@ -163,7 +163,7 @@
                 "last_commit": "2026-08-20T05:45:15Z",
                 "owner": "SBoudrias",
                 "repo": "Inquirer.js",
-                "stars": 21616
+                "stars": 21617
               }
             },
             {
@@ -178,7 +178,7 @@
                 "last_commit": "2026-08-12T00:11:46Z",
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 39728
+                "stars": 39732
               }
             },
             {
@@ -268,7 +268,7 @@
                 "last_commit": "2026-08-20T01:59:46Z",
                 "owner": "bombshell-dev",
                 "repo": "clack",
-                "stars": 8019
+                "stars": 8021
               }
             },
             {
@@ -305,7 +305,7 @@
                 "last_commit": "2026-08-24T13:22:20Z",
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20704
+                "stars": 20706
               }
             },
             {
@@ -320,7 +320,7 @@
                 "last_commit": "2026-08-24T13:22:20Z",
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20704
+                "stars": 20706
               }
             },
             {
@@ -363,7 +363,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T18:01:32.528Z",
+    "last_updated": "2026-08-25T05:51:46.693Z",
     "original_repository": "lirantal/nodejs-cli-apps-best-practices",
     "original_repository_id": 230675887,
     "original_repository_sha": "e6374e4f64a4708cc01d3a398cb15e532ab3d847",
