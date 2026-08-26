@@ -15,7 +15,7 @@
             "last_commit": "2026-08-24T04:05:39Z",
             "owner": "tj",
             "repo": "commander.js",
-            "stars": 28372
+            "stars": 28375
           }
         },
         {
@@ -160,10 +160,10 @@
                 "archived": false,
                 "id": 10114077,
                 "language": "TypeScript",
-                "last_commit": "2026-08-20T05:45:15Z",
+                "last_commit": "2026-08-25T22:13:16Z",
                 "owner": "SBoudrias",
                 "repo": "Inquirer.js",
-                "stars": 21616
+                "stars": 21615
               }
             },
             {
@@ -175,10 +175,10 @@
                 "archived": false,
                 "id": 94061307,
                 "language": "TypeScript",
-                "last_commit": "2026-08-12T00:11:46Z",
+                "last_commit": "2026-08-25T18:52:24Z",
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 39731
+                "stars": 39740
               }
             },
             {
@@ -250,10 +250,10 @@
                 "archived": false,
                 "id": 461322233,
                 "language": "TypeScript",
-                "last_commit": "2026-08-18T15:10:18Z",
+                "last_commit": "2026-08-26T16:01:45Z",
                 "owner": "vue-terminal",
                 "repo": "vue-termui",
-                "stars": 974
+                "stars": 975
               }
             },
             {
@@ -265,10 +265,10 @@
                 "archived": false,
                 "id": 599311541,
                 "language": "TypeScript",
-                "last_commit": "2026-08-25T11:34:12Z",
+                "last_commit": "2026-08-26T18:16:10Z",
                 "owner": "bombshell-dev",
                 "repo": "clack",
-                "stars": 8020
+                "stars": 8025
               }
             },
             {
@@ -305,7 +305,7 @@
                 "last_commit": "2026-08-24T13:22:20Z",
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20726
+                "stars": 20739
               }
             },
             {
@@ -320,7 +320,7 @@
                 "last_commit": "2026-08-24T13:22:20Z",
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20726
+                "stars": 20739
               }
             },
             {
@@ -363,7 +363,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T18:00:32.447Z",
+    "last_updated": "2026-08-26T19:24:59.895Z",
     "original_repository": "lirantal/nodejs-cli-apps-best-practices",
     "original_repository_id": 230675887,
     "original_repository_sha": "e6374e4f64a4708cc01d3a398cb15e532ab3d847",
