@@ -15,7 +15,7 @@
             "last_commit": "2026-08-24T04:05:39Z",
             "owner": "tj",
             "repo": "commander.js",
-            "stars": 28379
+            "stars": 28380
           }
         },
         {
@@ -178,7 +178,7 @@
                 "last_commit": "2026-08-25T18:52:24Z",
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 39744
+                "stars": 39746
               }
             },
             {
@@ -250,7 +250,7 @@
                 "archived": false,
                 "id": 461322233,
                 "language": "TypeScript",
-                "last_commit": "2026-08-26T16:01:45Z",
+                "last_commit": "2026-08-27T13:08:22Z",
                 "owner": "vue-terminal",
                 "repo": "vue-termui",
                 "stars": 975
@@ -268,7 +268,7 @@
                 "last_commit": "2026-08-26T18:16:10Z",
                 "owner": "bombshell-dev",
                 "repo": "clack",
-                "stars": 8026
+                "stars": 8029
               }
             },
             {
@@ -280,7 +280,7 @@
                 "archived": false,
                 "id": 1040520976,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T07:17:56Z",
+                "last_commit": "2026-08-28T00:21:26Z",
                 "owner": "dahlia",
                 "repo": "optique",
                 "stars": 729
@@ -305,7 +305,7 @@
                 "last_commit": "2026-08-24T13:22:20Z",
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20748
+                "stars": 20755
               }
             },
             {
@@ -320,7 +320,7 @@
                 "last_commit": "2026-08-24T13:22:20Z",
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20748
+                "stars": 20755
               }
             },
             {
@@ -363,7 +363,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:55:51.436Z",
+    "last_updated": "2026-08-28T01:37:14.567Z",
     "original_repository_info": {
       "archived": false,
       "id": 230675887,
