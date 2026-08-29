@@ -16,7 +16,8 @@
             "owner": "tj",
             "repo": "commander.js",
             "stars": 28380
-          }
+          },
+          "first_seen": "2026-08-29T01:08:16.218Z"
         },
         {
           "node_type": "item",
@@ -31,7 +32,8 @@
             "owner": "yargs",
             "repo": "yargs",
             "stars": 11515
-          }
+          },
+          "first_seen": "2026-08-29T01:08:16.218Z"
         }
       ],
       "title": "1.1 Respect POSIX args"
@@ -53,8 +55,9 @@
                 "last_commit": "2026-08-02T10:57:43Z",
                 "owner": "cosmiconfig",
                 "repo": "cosmiconfig",
-                "stars": 4157
-              }
+                "stars": 4158
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             }
           ],
           "description": "✅ Do: Allow configuration to be obtained from multiple sources, by order of precedence. Command line arguments take highest priority, followed by shell variables, and then different levels of configuration.\n❌ Otherwise: Users face frustration when customizing their experience with the CLI.\nℹ️ Details\nDetect and support configuration setting using environment variables as this will be a common way in many toolchains to modify the behavior of the invoked CLI application.\nConfiguration order of precedence for command line applications should follow this:\nReference projects:",
@@ -76,7 +79,8 @@
                 "owner": "yargs",
                 "repo": "yargs",
                 "stars": 11515
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -91,7 +95,8 @@
                 "owner": "mklabs",
                 "repo": "tabtab",
                 "stars": 378
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -106,7 +111,8 @@
                 "owner": "oclif",
                 "repo": "plugin-autocomplete",
                 "stars": 95
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             }
           ],
           "description": "✅ Do: For CLIs with subcommands, many flags, or dynamic operands, provide opt-in shell completion so users can discover valid commands, options, and values from their shell.\n❌ Otherwise: Users need to memorize flags, repeatedly inspect , or guess command names and option values that the CLI already knows how to validate.\nℹ️ Details\nShell completion is activated by the user's shell, but the CLI author usually owns the command metadata that makes completion useful. Keep completions generated from the same command, option, and subcommand definitions used by your parser and help output so they do not drift from real behavior.\nExpose completion through an explicit command such as or , and document supported shells. Bash, Zsh, Fish, and PowerShell have different completion systems, so avoid implying one generated script works everywhere.\nExample:\nIf the shell invokes your CLI to compute contextual candidates, write only completion candidates to STDOUT and keep diagnostics, warnings, and debug output on STDERR. This mirrors Distinguish STDOUT from STDERR and keeps shell completion parsers from receiving noisy output.\nCompletion setup should be explicit and reversible. Do not mutate , , PowerShell profiles, or other shell startup files from npm lifecycle scripts. Provide a documented command or generated script instead, and let users choose whether and where to install it.\nReference options:\nReferences:",
@@ -133,8 +139,9 @@
                 "last_commit": "2026-08-24T17:22:09Z",
                 "owner": "oclif",
                 "repo": "oclif",
-                "stars": 9582
-              }
+                "stars": 9584
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -149,7 +156,8 @@
                 "owner": "yargs",
                 "repo": "yargs",
                 "stars": 11515
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -163,8 +171,9 @@
                 "last_commit": "2026-08-27T05:48:22Z",
                 "owner": "SBoudrias",
                 "repo": "Inquirer.js",
-                "stars": 21616
-              }
+                "stars": 21617
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -178,8 +187,9 @@
                 "last_commit": "2026-08-25T18:52:24Z",
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 39746
-              }
+                "stars": 39754
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -194,7 +204,8 @@
                 "owner": "vadimdemedes",
                 "repo": "pastel",
                 "stars": 2406
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -209,7 +220,8 @@
                 "owner": "vadimdemedes",
                 "repo": "ink-ui",
                 "stars": 2059
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -224,7 +236,8 @@
                 "owner": "chjj",
                 "repo": "blessed",
                 "stars": 11882
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -239,7 +252,8 @@
                 "owner": "terkelg",
                 "repo": "prompts",
                 "stars": 9311
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -254,7 +268,8 @@
                 "owner": "vue-terminal",
                 "repo": "vue-termui",
                 "stars": 975
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -268,8 +283,9 @@
                 "last_commit": "2026-08-26T18:16:10Z",
                 "owner": "bombshell-dev",
                 "repo": "clack",
-                "stars": 8029
-              }
+                "stars": 8030
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -280,11 +296,12 @@
                 "archived": false,
                 "id": 1040520976,
                 "language": "TypeScript",
-                "last_commit": "2026-08-28T00:21:26Z",
+                "last_commit": "2026-08-29T00:09:48Z",
                 "owner": "dahlia",
                 "repo": "optique",
                 "stars": 729
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             }
           ],
           "description": null,
@@ -305,8 +322,9 @@
                 "last_commit": "2026-08-24T13:22:20Z",
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20755
-              }
+                "stars": 20757
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -320,8 +338,9 @@
                 "last_commit": "2026-08-24T13:22:20Z",
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20755
-              }
+                "stars": 20757
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -336,7 +355,8 @@
                 "owner": "oclif",
                 "repo": "plugin-autocomplete",
                 "stars": 95
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             },
             {
               "node_type": "item",
@@ -351,7 +371,8 @@
                 "owner": "mklabs",
                 "repo": "tabtab",
                 "stars": 378
-              }
+              },
+              "first_seen": "2026-08-29T01:08:16.218Z"
             }
           ],
           "description": "CLI projects often need supporting tools beyond the libraries and frameworks used in the application code itself. These tools help with demos, documentation, release assets, and project maintenance.",
@@ -363,7 +384,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T01:37:14.567Z",
+    "last_updated": "2026-08-29T01:08:16.218Z",
     "original_repository_info": {
       "archived": false,
       "id": 230675887,
