@@ -19,7 +19,7 @@
             "open_issues": 8,
             "owner": "tj",
             "repo": "commander.js",
-            "stars": 28379,
+            "stars": 28381,
             "topics": []
           },
           "first_seen": "2026-08-29T01:08:16.218Z"
@@ -135,8 +135,8 @@
                 "id": 133880916,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-24T17:05:12Z",
-                "open_issues": 11,
+                "last_commit": "2026-08-29T13:44:09Z",
+                "open_issues": 15,
                 "owner": "oclif",
                 "repo": "plugin-autocomplete",
                 "stars": 95,
@@ -169,11 +169,11 @@
                 "id": 117152902,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-24T17:22:09Z",
-                "open_issues": 19,
+                "last_commit": "2026-08-29T14:04:47Z",
+                "open_issues": 21,
                 "owner": "oclif",
                 "repo": "oclif",
-                "stars": 9583,
+                "stars": 9584,
                 "topics": [
                   "cli",
                   "nodejs",
@@ -250,7 +250,7 @@
                 "open_issues": 32,
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 39755,
+                "stars": 39758,
                 "topics": [
                   "cli",
                   "command-line",
@@ -434,11 +434,11 @@
                 "id": 1040520976,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-29T00:09:48Z",
-                "open_issues": 25,
+                "last_commit": "2026-08-29T17:18:24Z",
+                "open_issues": 24,
                 "owner": "dahlia",
                 "repo": "optique",
-                "stars": 729,
+                "stars": 730,
                 "topics": [
                   "cli",
                   "getopt",
@@ -471,7 +471,7 @@
                 "open_issues": 170,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20758,
+                "stars": 20767,
                 "topics": [
                   "ascii",
                   "cli",
@@ -501,7 +501,7 @@
                 "open_issues": 170,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20758,
+                "stars": 20767,
                 "topics": [
                   "ascii",
                   "cli",
@@ -527,8 +527,8 @@
                 "id": 133880916,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-24T17:05:12Z",
-                "open_issues": 11,
+                "last_commit": "2026-08-29T13:44:09Z",
+                "open_issues": 15,
                 "owner": "oclif",
                 "repo": "plugin-autocomplete",
                 "stars": 95,
@@ -567,7 +567,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T04:19:06.738Z",
+    "last_updated": "2026-08-29T19:58:06.597Z",
     "original_repository_info": {
       "archived": false,
       "description": "The largest Node.js CLI Apps best practices list ✨",
