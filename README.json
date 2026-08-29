@@ -10,12 +10,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "node.js command-line interfaces made easy",
+            "homepage": null,
             "id": 2206953,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2026-08-24T04:05:39Z",
+            "open_issues": 8,
             "owner": "tj",
             "repo": "commander.js",
-            "stars": 28380
+            "stars": 28379,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:08:16.218Z"
         },
@@ -26,12 +31,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": " yargs the modern, pirate-themed successor to optimist.",
+            "homepage": "https://yargs.js.org/",
             "id": 14210523,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2026-08-07T03:15:41Z",
+            "open_issues": 208,
             "owner": "yargs",
             "repo": "yargs",
-            "stars": 11515
+            "stars": 11514,
+            "topics": []
           },
           "first_seen": "2026-08-29T01:08:16.218Z"
         }
@@ -50,12 +60,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Find and load configuration from a package.json property, rc file, TypeScript module, and more!",
+                "homepage": null,
                 "id": 45750507,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-02T10:57:43Z",
+                "open_issues": 14,
                 "owner": "cosmiconfig",
                 "repo": "cosmiconfig",
-                "stars": 4158
+                "stars": 4158,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             }
@@ -73,12 +88,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": " yargs the modern, pirate-themed successor to optimist.",
+                "homepage": "https://yargs.js.org/",
                 "id": 14210523,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2026-08-07T03:15:41Z",
+                "open_issues": 208,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11515
+                "stars": 11514,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -89,12 +109,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "tab completion helpers, for node cli programs & others. Inspired by npm completion",
+                "homepage": null,
                 "id": 2593728,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2023-01-04T14:33:56Z",
+                "open_issues": 43,
                 "owner": "mklabs",
                 "repo": "tabtab",
-                "stars": 378
+                "stars": 378,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -105,12 +130,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "autocomplete plugin for oclif",
+                "homepage": null,
                 "id": 133880916,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-24T17:05:12Z",
+                "open_issues": 11,
                 "owner": "oclif",
                 "repo": "plugin-autocomplete",
-                "stars": 95
+                "stars": 95,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             }
@@ -134,12 +164,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "CLI for generating, building, and releasing oclif CLIs. Built by Salesforce.",
+                "homepage": "https://oclif.io",
                 "id": 117152902,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-24T17:22:09Z",
+                "open_issues": 19,
                 "owner": "oclif",
                 "repo": "oclif",
-                "stars": 9584
+                "stars": 9583,
+                "topics": [
+                  "cli",
+                  "nodejs",
+                  "oclif",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -150,12 +190,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": " yargs the modern, pirate-themed successor to optimist.",
+                "homepage": "https://yargs.js.org/",
                 "id": 14210523,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2026-08-07T03:15:41Z",
+                "open_issues": 208,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11515
+                "stars": 11514,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -166,12 +211,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A collection of common interactive command line user interfaces.",
+                "homepage": null,
                 "id": 10114077,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-27T05:48:22Z",
+                "open_issues": 16,
                 "owner": "SBoudrias",
                 "repo": "Inquirer.js",
-                "stars": 21617
+                "stars": 21616,
+                "topics": [
+                  "cli",
+                  "command-line",
+                  "javascript",
+                  "javascript-library",
+                  "node-js",
+                  "nodejs",
+                  "prompt",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -182,12 +241,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🌈 React for interactive command-line apps",
+                "homepage": "https://term.ink",
                 "id": 94061307,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-25T18:52:24Z",
+                "open_issues": 32,
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 39754
+                "stars": 39755,
+                "topics": [
+                  "cli",
+                  "command-line",
+                  "flexbox",
+                  "interactive",
+                  "javascript",
+                  "react"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -198,12 +269,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🎨 Next.js-like framework for CLIs made with Ink",
+                "homepage": "https://term.ink/pastel",
                 "id": 182489651,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-03-21T09:49:14Z",
+                "open_issues": 18,
                 "owner": "vadimdemedes",
                 "repo": "pastel",
-                "stars": 2406
+                "stars": 2407,
+                "topics": [
+                  "cli",
+                  "command-line",
+                  "ink",
+                  "react"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -214,12 +295,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "💄 Ink-redible command-line interfaces made easy",
+                "homepage": "https://term.ink/ui",
                 "id": 633415187,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2024-05-22T12:20:07Z",
+                "open_issues": 21,
                 "owner": "vadimdemedes",
                 "repo": "ink-ui",
-                "stars": 2059
+                "stars": 2059,
+                "topics": [
+                  "ink",
+                  "react",
+                  "terminal",
+                  "tui",
+                  "tuikit",
+                  "ui",
+                  "uikit"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -230,12 +324,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A high-level terminal interface library for node.js.",
+                "homepage": null,
                 "id": 7855340,
                 "language": "JavaScript",
+                "license": "NOASSERTION",
                 "last_commit": "2024-03-22T10:02:56Z",
+                "open_issues": 256,
                 "owner": "chjj",
                 "repo": "blessed",
-                "stars": 11882
+                "stars": 11882,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -246,12 +345,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "❯ Lightweight, beautiful and user-friendly interactive prompts",
+                "homepage": null,
                 "id": 122728925,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2025-05-14T16:42:36Z",
+                "open_issues": 150,
                 "owner": "terkelg",
                 "repo": "prompts",
-                "stars": 9311
+                "stars": 9311,
+                "topics": [
+                  "choice",
+                  "cli",
+                  "command-line",
+                  "interface",
+                  "nodejs",
+                  "prompt",
+                  "prompter",
+                  "prompts"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -262,12 +375,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The Modern Terminal UI Framework",
+                "homepage": "https://vue-termui.dev",
                 "id": 461322233,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-27T13:08:22Z",
+                "open_issues": 5,
                 "owner": "vue-terminal",
                 "repo": "vue-termui",
-                "stars": 975
+                "stars": 975,
+                "topics": [
+                  "custom-renderer",
+                  "terminal",
+                  "tui",
+                  "vue"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -278,12 +401,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Effortlessly build beautiful command-line apps",
+                "homepage": "https://bomb.sh/docs/clack/basics/getting-started/",
                 "id": 599311541,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-26T18:16:10Z",
+                "open_issues": 87,
                 "owner": "bombshell-dev",
                 "repo": "clack",
-                "stars": 8030
+                "stars": 8030,
+                "topics": [
+                  "cli",
+                  "command-line",
+                  "command-line-app",
+                  "node",
+                  "prompt",
+                  "prompts"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -294,12 +429,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Type-safe combinatorial CLI parser for TypeScript",
+                "homepage": "http://optique.dev/",
                 "id": 1040520976,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-29T00:09:48Z",
+                "open_issues": 25,
                 "owner": "dahlia",
                 "repo": "optique",
-                "stars": 729
+                "stars": 729,
+                "topics": [
+                  "cli",
+                  "getopt",
+                  "parser-combinators",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             }
@@ -317,12 +462,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Your CLI home video recorder 📼",
+                "homepage": null,
                 "id": 515619101,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-24T13:22:20Z",
+                "open_issues": 170,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20757
+                "stars": 20758,
+                "topics": [
+                  "ascii",
+                  "cli",
+                  "command-line",
+                  "gif",
+                  "recording",
+                  "terminal",
+                  "vhs",
+                  "video"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -333,12 +492,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Your CLI home video recorder 📼",
+                "homepage": null,
                 "id": 515619101,
                 "language": "Go",
+                "license": "MIT",
                 "last_commit": "2026-08-24T13:22:20Z",
+                "open_issues": 170,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20757
+                "stars": 20758,
+                "topics": [
+                  "ascii",
+                  "cli",
+                  "command-line",
+                  "gif",
+                  "recording",
+                  "terminal",
+                  "vhs",
+                  "video"
+                ]
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -349,12 +522,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "autocomplete plugin for oclif",
+                "homepage": null,
                 "id": 133880916,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-24T17:05:12Z",
+                "open_issues": 11,
                 "owner": "oclif",
                 "repo": "plugin-autocomplete",
-                "stars": 95
+                "stars": 95,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             },
@@ -365,12 +543,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "tab completion helpers, for node cli programs & others. Inspired by npm completion",
+                "homepage": null,
                 "id": 2593728,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2023-01-04T14:33:56Z",
+                "open_issues": 43,
                 "owner": "mklabs",
                 "repo": "tabtab",
-                "stars": 378
+                "stars": 378,
+                "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
             }
@@ -384,15 +567,29 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T01:08:16.218Z",
+    "last_updated": "2026-08-29T04:19:06.738Z",
     "original_repository_info": {
       "archived": false,
+      "description": "The largest Node.js CLI Apps best practices list ✨",
+      "homepage": null,
       "id": 230675887,
       "language": "JavaScript",
+      "license": "CC-BY-SA-4.0",
       "last_commit": "2026-07-08T19:57:50Z",
+      "open_issues": 0,
       "owner": "lirantal",
       "repo": "nodejs-cli-apps-best-practices",
-      "stars": 4111
+      "stars": 4111,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "best-practices",
+        "cli",
+        "command-line",
+        "node",
+        "nodejs",
+        "nodejs-cli"
+      ]
     },
     "original_repository_sha": "e6374e4f64a4708cc01d3a398cb15e532ab3d847",
     "enhanced_repository": "enhansome/enhansome-nodejs-cli-apps-best-practices",
