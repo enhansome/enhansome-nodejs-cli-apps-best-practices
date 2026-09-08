@@ -40,7 +40,7 @@
             "open_issues": 211,
             "owner": "yargs",
             "repo": "yargs",
-            "stars": 11511,
+            "stars": 11510,
             "topics": []
           },
           "first_seen": "2026-08-29T01:08:16.218Z"
@@ -69,7 +69,7 @@
                 "open_issues": 9,
                 "owner": "cosmiconfig",
                 "repo": "cosmiconfig",
-                "stars": 4163,
+                "stars": 4164,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
@@ -97,7 +97,7 @@
                 "open_issues": 211,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11511,
+                "stars": 11510,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
@@ -173,7 +173,7 @@
                 "open_issues": 23,
                 "owner": "oclif",
                 "repo": "oclif",
-                "stars": 9588,
+                "stars": 9590,
                 "topics": [
                   "cli",
                   "nodejs",
@@ -199,7 +199,7 @@
                 "open_issues": 211,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11511,
+                "stars": 11510,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
@@ -220,7 +220,7 @@
                 "open_issues": 13,
                 "owner": "SBoudrias",
                 "repo": "Inquirer.js",
-                "stars": 21624,
+                "stars": 21623,
                 "topics": [
                   "cli",
                   "command-line",
@@ -246,11 +246,11 @@
                 "id": 94061307,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-08-25T18:52:24Z",
-                "open_issues": 33,
+                "last_commit": "2026-09-08T11:53:58Z",
+                "open_issues": 30,
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 39829,
+                "stars": 39834,
                 "topics": [
                   "cli",
                   "command-line",
@@ -384,7 +384,7 @@
                 "open_issues": 5,
                 "owner": "vue-terminal",
                 "repo": "vue-termui",
-                "stars": 975,
+                "stars": 976,
                 "topics": [
                   "custom-renderer",
                   "terminal",
@@ -407,10 +407,10 @@
                 "language": "TypeScript",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-07T20:12:23Z",
-                "open_issues": 84,
+                "open_issues": 86,
                 "owner": "bombshell-dev",
                 "repo": "clack",
-                "stars": 8046,
+                "stars": 8049,
                 "topics": [
                   "cli",
                   "command-line",
@@ -471,7 +471,7 @@
                 "open_issues": 174,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20831,
+                "stars": 20838,
                 "topics": [
                   "ascii",
                   "cli",
@@ -501,7 +501,7 @@
                 "open_issues": 174,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20831,
+                "stars": 20838,
                 "topics": [
                   "ascii",
                   "cli",
@@ -567,7 +567,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-07T20:46:05.285Z",
+    "last_updated": "2026-09-08T20:12:02.244Z",
     "original_repository_info": {
       "archived": false,
       "description": "The largest Node.js CLI Apps best practices list ✨",
@@ -579,7 +579,7 @@
       "open_issues": 0,
       "owner": "lirantal",
       "repo": "nodejs-cli-apps-best-practices",
-      "stars": 4118,
+      "stars": 4119,
       "topics": [
         "awesome",
         "awesome-list",
