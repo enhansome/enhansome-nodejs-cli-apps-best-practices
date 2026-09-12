@@ -40,7 +40,7 @@
             "open_issues": 212,
             "owner": "yargs",
             "repo": "yargs",
-            "stars": 11506,
+            "stars": 11504,
             "topics": []
           },
           "first_seen": "2026-08-29T01:08:16.218Z"
@@ -97,7 +97,7 @@
                 "open_issues": 212,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11506,
+                "stars": 11504,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
@@ -169,8 +169,8 @@
                 "id": 117152902,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-11T19:52:56Z",
-                "open_issues": 25,
+                "last_commit": "2026-09-11T20:17:54Z",
+                "open_issues": 24,
                 "owner": "oclif",
                 "repo": "oclif",
                 "stars": 9591,
@@ -199,7 +199,7 @@
                 "open_issues": 212,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11506,
+                "stars": 11504,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
@@ -220,7 +220,7 @@
                 "open_issues": 13,
                 "owner": "SBoudrias",
                 "repo": "Inquirer.js",
-                "stars": 21623,
+                "stars": 21622,
                 "topics": [
                   "cli",
                   "command-line",
@@ -250,7 +250,7 @@
                 "open_issues": 29,
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 39854,
+                "stars": 39863,
                 "topics": [
                   "cli",
                   "command-line",
@@ -333,7 +333,7 @@
                 "open_issues": 256,
                 "owner": "chjj",
                 "repo": "blessed",
-                "stars": 11887,
+                "stars": 11886,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
@@ -406,8 +406,8 @@
                 "id": 599311541,
                 "language": "TypeScript",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-11T18:40:20Z",
-                "open_issues": 86,
+                "last_commit": "2026-09-12T16:14:44Z",
+                "open_issues": 85,
                 "owner": "bombshell-dev",
                 "repo": "clack",
                 "stars": 8052,
@@ -438,7 +438,7 @@
                 "open_issues": 9,
                 "owner": "dahlia",
                 "repo": "optique",
-                "stars": 733,
+                "stars": 734,
                 "topics": [
                   "cli",
                   "getopt",
@@ -468,10 +468,10 @@
                 "language": "Go",
                 "license": "MIT",
                 "last_commit": "2026-09-09T09:37:32Z",
-                "open_issues": 173,
+                "open_issues": 174,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20863,
+                "stars": 20876,
                 "topics": [
                   "ascii",
                   "cli",
@@ -498,10 +498,10 @@
                 "language": "Go",
                 "license": "MIT",
                 "last_commit": "2026-09-09T09:37:32Z",
-                "open_issues": 173,
+                "open_issues": 174,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20863,
+                "stars": 20876,
                 "topics": [
                   "ascii",
                   "cli",
@@ -567,7 +567,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-11T19:59:13.534Z",
+    "last_updated": "2026-09-12T19:36:59.671Z",
     "original_repository_info": {
       "archived": false,
       "description": "The largest Node.js CLI Apps best practices list ✨",
