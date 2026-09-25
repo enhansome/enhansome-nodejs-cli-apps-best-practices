@@ -16,10 +16,10 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-09-21T08:17:41Z",
-            "open_issues": 15,
+            "open_issues": 11,
             "owner": "tj",
             "repo": "commander.js",
-            "stars": 28408,
+            "stars": 28409,
             "topics": []
           },
           "first_seen": "2026-08-29T01:08:16.218Z"
@@ -40,7 +40,7 @@
             "open_issues": 211,
             "owner": "yargs",
             "repo": "yargs",
-            "stars": 11503,
+            "stars": 11504,
             "topics": []
           },
           "first_seen": "2026-08-29T01:08:16.218Z"
@@ -97,7 +97,7 @@
                 "open_issues": 211,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11503,
+                "stars": 11504,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
@@ -135,8 +135,8 @@
                 "id": 133880916,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-22T20:14:59Z",
-                "open_issues": 16,
+                "last_commit": "2026-09-25T18:24:13Z",
+                "open_issues": 15,
                 "owner": "oclif",
                 "repo": "plugin-autocomplete",
                 "stars": 95,
@@ -169,11 +169,11 @@
                 "id": 117152902,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-22T16:13:43Z",
-                "open_issues": 23,
+                "last_commit": "2026-09-25T18:20:33Z",
+                "open_issues": 22,
                 "owner": "oclif",
                 "repo": "oclif",
-                "stars": 9595,
+                "stars": 9596,
                 "topics": [
                   "cli",
                   "nodejs",
@@ -199,7 +199,7 @@
                 "open_issues": 211,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11503,
+                "stars": 11504,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
@@ -250,7 +250,7 @@
                 "open_issues": 35,
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 39940,
+                "stars": 39946,
                 "topics": [
                   "cli",
                   "command-line",
@@ -410,7 +410,7 @@
                 "open_issues": 85,
                 "owner": "bombshell-dev",
                 "repo": "clack",
-                "stars": 8075,
+                "stars": 8076,
                 "topics": [
                   "cli",
                   "command-line",
@@ -471,7 +471,7 @@
                 "open_issues": 173,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20976,
+                "stars": 20984,
                 "topics": [
                   "ascii",
                   "cli",
@@ -501,7 +501,7 @@
                 "open_issues": 173,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 20976,
+                "stars": 20984,
                 "topics": [
                   "ascii",
                   "cli",
@@ -527,8 +527,8 @@
                 "id": 133880916,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-09-22T20:14:59Z",
-                "open_issues": 16,
+                "last_commit": "2026-09-25T18:24:13Z",
+                "open_issues": 15,
                 "owner": "oclif",
                 "repo": "plugin-autocomplete",
                 "stars": 95,
@@ -567,7 +567,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-24T20:43:44.425Z",
+    "last_updated": "2026-09-25T20:42:45.685Z",
     "original_repository_info": {
       "archived": false,
       "description": "The largest Node.js CLI Apps best practices list ✨",
@@ -579,7 +579,7 @@
       "open_issues": 0,
       "owner": "lirantal",
       "repo": "nodejs-cli-apps-best-practices",
-      "stars": 4129,
+      "stars": 4130,
       "topics": [
         "awesome",
         "awesome-list",
