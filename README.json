@@ -6,7 +6,7 @@
         {
           "node_type": "item",
           "title": "commander",
-          "description": null,
+          "description": "tj/commander.js",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -16,7 +16,7 @@
             "language": "JavaScript",
             "license": "MIT",
             "last_commit": "2026-10-01T04:07:19Z",
-            "open_issues": 16,
+            "open_issues": 19,
             "owner": "tj",
             "repo": "commander.js",
             "stars": 28414,
@@ -27,7 +27,7 @@
         {
           "node_type": "item",
           "title": "yargs",
-          "description": null,
+          "description": "yargs/yargs",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -40,7 +40,7 @@
             "open_issues": 211,
             "owner": "yargs",
             "repo": "yargs",
-            "stars": 11503,
+            "stars": 11504,
             "topics": []
           },
           "first_seen": "2026-08-29T01:08:16.218Z"
@@ -56,7 +56,7 @@
             {
               "node_type": "item",
               "title": "cosmiconfig",
-              "description": null,
+              "description": "cosmiconfig/cosmiconfig",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -84,7 +84,7 @@
             {
               "node_type": "item",
               "title": "yargs",
-              "description": null,
+              "description": "yargs/yargs",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -97,7 +97,7 @@
                 "open_issues": 211,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11503,
+                "stars": 11504,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
@@ -105,7 +105,7 @@
             {
               "node_type": "item",
               "title": "tabtab",
-              "description": null,
+              "description": "mklabs/tabtab",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -126,7 +126,7 @@
             {
               "node_type": "item",
               "title": "@oclif/plugin-autocomplete",
-              "description": null,
+              "description": "oclif/plugin-autocomplete",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -199,7 +199,7 @@
                 "open_issues": 211,
                 "owner": "yargs",
                 "repo": "yargs",
-                "stars": 11503,
+                "stars": 11504,
                 "topics": []
               },
               "first_seen": "2026-08-29T01:08:16.218Z"
@@ -246,11 +246,11 @@
                 "id": 94061307,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-01T11:16:39Z",
-                "open_issues": 37,
+                "last_commit": "2026-10-03T04:42:04Z",
+                "open_issues": 35,
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 40007,
+                "stars": 40012,
                 "topics": [
                   "cli",
                   "command-line",
@@ -458,7 +458,7 @@
             {
               "node_type": "item",
               "title": "Installation docs",
-              "description": null,
+              "description": "charmbracelet/vhs",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -488,7 +488,7 @@
             {
               "node_type": "item",
               "title": "Link to GitHub",
-              "description": null,
+              "description": "charmbracelet/vhs",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -567,7 +567,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-02T21:25:57.173Z",
+    "last_updated": "2026-10-03T04:58:55.763Z",
     "original_repository_info": {
       "archived": false,
       "description": "The largest Node.js CLI Apps best practices list ✨",
@@ -579,7 +579,7 @@
       "open_issues": 0,
       "owner": "lirantal",
       "repo": "nodejs-cli-apps-best-practices",
-      "stars": 4131,
+      "stars": 4132,
       "topics": [
         "awesome",
         "awesome-list",

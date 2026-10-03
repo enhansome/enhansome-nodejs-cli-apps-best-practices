@@ -232,8 +232,8 @@ if (values.help) {
 
 Reference options:
 
-* [commander](https://github.com/tj/commander.js#readme) ⭐ 28,414 | 🐛 16 | 🌐 JavaScript | 📅 2026-10-01
-* [yargs](https://github.com/yargs/yargs) ⭐ 11,503 | 🐛 211 | 🌐 JavaScript | 📅 2026-10-01
+* [commander](https://github.com/tj/commander.js#readme) ⭐ 28,414 | 🐛 19 | 🌐 JavaScript | 📅 2026-10-01
+* [yargs](https://github.com/yargs/yargs) ⭐ 11,504 | 🐛 211 | 🌐 JavaScript | 📅 2026-10-01
 * [built-in `{ parseArgs } from 'node:util'`](https://nodejs.org/api/util.html#utilparseargsconfig)
 * [Optique](https://optique.dev/)
 
@@ -825,7 +825,7 @@ Completion setup should be explicit and reversible. Do not mutate `.bashrc`, `.z
 
 Reference options:
 
-* [yargs `.completion()`](https://github.com/yargs/yargs/blob/main/docs/api.md#completioncmd-description-fn) ⭐ 11,503 | 🐛 211 | 🌐 JavaScript | 📅 2026-10-01
+* [yargs `.completion()`](https://github.com/yargs/yargs/blob/main/docs/api.md#completioncmd-description-fn) ⭐ 11,504 | 🐛 211 | 🌐 JavaScript | 📅 2026-10-01
 * [tabtab](https://github.com/mklabs/tabtab) ⭐ 376 | 🐛 43 | 🌐 JavaScript | 📅 2023-01-04
 * [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete) ⭐ 95 | 🐛 15 | 🌐 TypeScript | 📅 2026-09-25
 
@@ -1303,9 +1303,9 @@ References for [Blamer npm package vulnerable to argument injection](https://www
 | Name              | Description                                                                                                               | npm                                                            | GitHub                                                                                                                              | Stars and downloads                                                                                                    |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | oclif             | A framework for building a command line interface.                                                                        | [Link to npm](https://www.npmjs.com/package/oclif)             | [Link to GitHub](https://github.com/oclif/oclif) ⭐ 9,595 \| 🐛 22 \| 🌐 TypeScript \| 📅 2026-09-25                                 | ![](https://img.shields.io/github/stars/oclif/oclif)![](https://img.shields.io/npm/dt/oclif.svg)                       |
-| yargs             | A command line parser for complex CLIs with commands, options, generated help, and shell completion support.              | [Link to npm](https://www.npmjs.com/package/yargs)             | [Link to GitHub](https://github.com/yargs/yargs) ⭐ 11,503 \| 🐛 211 \| 🌐 JavaScript \| 📅 2026-10-01                               | ![](https://img.shields.io/github/stars/yargs/yargs)![](https://img.shields.io/npm/dt/yargs.svg)                       |
+| yargs             | A command line parser for complex CLIs with commands, options, generated help, and shell completion support.              | [Link to npm](https://www.npmjs.com/package/yargs)             | [Link to GitHub](https://github.com/yargs/yargs) ⭐ 11,504 \| 🐛 211 \| 🌐 JavaScript \| 📅 2026-10-01                               | ![](https://img.shields.io/github/stars/yargs/yargs)![](https://img.shields.io/npm/dt/yargs.svg)                       |
 | @inquirer/prompts | A collection of common interactive command line user interfaces.                                                          | [Link to npm](https://www.npmjs.com/package/@inquirer/prompts) | [Link to GitHub](https://github.com/SBoudrias/Inquirer.js) ⭐ 21,631 \| 🐛 17 \| 🌐 TypeScript \| 📅 2026-10-01                      | ![](https://img.shields.io/github/stars/sboudrias/inquirer.js)![](https://img.shields.io/npm/dt/@inquirer/prompts.svg) |
-| ink               | Ink provides the same component-based UI building experience that React offers in the browser, but for command-line apps. | [Link to npm](https://www.npmjs.com/package/ink)               | [Link to Github](https://github.com/vadimdemedes/ink) ⭐ 40,007 \| 🐛 37 \| 🌐 TypeScript \| 📅 2026-10-01                           | ![](https://img.shields.io/github/stars/vadimdemedes/ink)![](https://img.shields.io/npm/dt/ink.svg)                    |
+| ink               | Ink provides the same component-based UI building experience that React offers in the browser, but for command-line apps. | [Link to npm](https://www.npmjs.com/package/ink)               | [Link to Github](https://github.com/vadimdemedes/ink) ⭐ 40,012 \| 🐛 35 \| 🌐 TypeScript \| 📅 2026-10-03                           | ![](https://img.shields.io/github/stars/vadimdemedes/ink)![](https://img.shields.io/npm/dt/ink.svg)                    |
 | pastel            | Next.js-like framework for CLIs made with Ink.                                                                            | [Link to npm](https://www.npmjs.com/package/pastel)            | [Link to Github](https://github.com/vadimdemedes/pastel) ⭐ 2,409 \| 🐛 18 \| 🌐 TypeScript \| 📅 2026-03-21                         | ![](https://img.shields.io/github/stars/vadimdemedes/pastel)![](https://img.shields.io/npm/dt/pastel.svg)              |
 | ink UI            | Collection of customizable UI components for CLIs made with Ink.                                                          | [Link to npm](https://www.npmjs.com/package/@inkjs/ui)         | [Link to Github](https://github.com/vadimdemedes/ink-ui) ⭐ 2,073 \| 🐛 21 \| 🌐 TypeScript \| 📅 2024-05-22                         | ![](https://img.shields.io/github/stars/vadimdemedes/ink-ui)![](https://img.shields.io/npm/dt/@inkjs/ui.svg)           |
 | blessed           | A curses-like library with a high level terminal interface API for node.js.                                               | [Link to npm](https://www.npmjs.com/package/blessed)           | [Link to GitHub](https://github.com/chjj/blessed) ⭐ 11,888 \| 🐛 255 \| 🌐 JavaScript \| 📅 2024-03-22                              | ![](https://img.shields.io/github/stars/chjj/blessed)![](https://img.shields.io/npm/dt/blessed.svg)                    |
@@ -1364,4 +1364,4 @@ This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Intern
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-02._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-03._
