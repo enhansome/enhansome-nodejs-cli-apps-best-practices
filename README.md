@@ -232,8 +232,8 @@ if (values.help) {
 
 Reference options:
 
-* [commander](https://github.com/tj/commander.js#readme) ⭐ 28,417 | 🐛 12 | 🌐 JavaScript | 📅 2026-10-12
-* [yargs](https://github.com/yargs/yargs) ⭐ 11,505 | 🐛 202 | 🌐 JavaScript | 📅 2026-10-13
+* [commander](https://github.com/tj/commander.js#readme) ⭐ 28,420 | 🐛 12 | 🌐 JavaScript | 📅 2026-10-12
+* [yargs](https://github.com/yargs/yargs) ⭐ 11,505 | 🐛 199 | 🌐 JavaScript | 📅 2026-10-13
 * [built-in `{ parseArgs } from 'node:util'`](https://nodejs.org/api/util.html#utilparseargsconfig)
 * [Optique](https://optique.dev/)
 
@@ -344,7 +344,7 @@ If you are sharing links to URLs, or pointing to a file and a specific line numb
 
 Reference projects:
 
-* [open](https://github.com/sindresorhus/open) ⭐ 3,521 | 🐛 1 | 🌐 JavaScript | 📅 2026-09-14
+* [open](https://github.com/sindresorhus/open) ⭐ 3,522 | 🐛 1 | 🌐 JavaScript | 📅 2026-09-14
 
 ### 1.7 Zero configuration
 
@@ -726,7 +726,7 @@ Configuration order of precedence for command line applications should follow th
 
 Reference projects:
 
-* [cosmiconfig](https://github.com/davidtheclark/cosmiconfig) ⭐ 4,168 | 🐛 9 | 🌐 TypeScript | 📅 2026-09-01
+* [cosmiconfig](https://github.com/davidtheclark/cosmiconfig) ⭐ 4,167 | 🐛 9 | 🌐 TypeScript | 📅 2026-09-01
 
 ### 3.5 Gate interactive behavior
 
@@ -825,7 +825,7 @@ Completion setup should be explicit and reversible. Do not mutate `.bashrc`, `.z
 
 Reference options:
 
-* [yargs `.completion()`](https://github.com/yargs/yargs/blob/main/docs/api.md#completioncmd-description-fn) ⭐ 11,505 | 🐛 202 | 🌐 JavaScript | 📅 2026-10-13
+* [yargs `.completion()`](https://github.com/yargs/yargs/blob/main/docs/api.md#completioncmd-description-fn) ⭐ 11,505 | 🐛 199 | 🌐 JavaScript | 📅 2026-10-13
 * [tabtab](https://github.com/mklabs/tabtab) ⭐ 376 | 🐛 43 | 🌐 JavaScript | 📅 2023-01-04
 * [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete) ⭐ 95 | 🐛 10 | 🌐 TypeScript | 📅 2026-10-12
 
@@ -1303,9 +1303,9 @@ References for [Blamer npm package vulnerable to argument injection](https://www
 | Name              | Description                                                                                                               | npm                                                            | GitHub                                                                                                                              | Stars and downloads                                                                                                    |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | oclif             | A framework for building a command line interface.                                                                        | [Link to npm](https://www.npmjs.com/package/oclif)             | [Link to GitHub](https://github.com/oclif/oclif) ⭐ 9,601 \| 🐛 18 \| 🌐 TypeScript \| 📅 2026-10-12                                 | ![](https://img.shields.io/github/stars/oclif/oclif)![](https://img.shields.io/npm/dt/oclif.svg)                       |
-| yargs             | A command line parser for complex CLIs with commands, options, generated help, and shell completion support.              | [Link to npm](https://www.npmjs.com/package/yargs)             | [Link to GitHub](https://github.com/yargs/yargs) ⭐ 11,505 \| 🐛 202 \| 🌐 JavaScript \| 📅 2026-10-13                               | ![](https://img.shields.io/github/stars/yargs/yargs)![](https://img.shields.io/npm/dt/yargs.svg)                       |
-| @inquirer/prompts | A collection of common interactive command line user interfaces.                                                          | [Link to npm](https://www.npmjs.com/package/@inquirer/prompts) | [Link to GitHub](https://github.com/SBoudrias/Inquirer.js) ⭐ 21,635 \| 🐛 16 \| 🌐 TypeScript \| 📅 2026-10-12                      | ![](https://img.shields.io/github/stars/sboudrias/inquirer.js)![](https://img.shields.io/npm/dt/@inquirer/prompts.svg) |
-| ink               | Ink provides the same component-based UI building experience that React offers in the browser, but for command-line apps. | [Link to npm](https://www.npmjs.com/package/ink)               | [Link to Github](https://github.com/vadimdemedes/ink) ⭐ 40,100 \| 🐛 31 \| 🌐 TypeScript \| 📅 2026-10-03                           | ![](https://img.shields.io/github/stars/vadimdemedes/ink)![](https://img.shields.io/npm/dt/ink.svg)                    |
+| yargs             | A command line parser for complex CLIs with commands, options, generated help, and shell completion support.              | [Link to npm](https://www.npmjs.com/package/yargs)             | [Link to GitHub](https://github.com/yargs/yargs) ⭐ 11,505 \| 🐛 199 \| 🌐 JavaScript \| 📅 2026-10-13                               | ![](https://img.shields.io/github/stars/yargs/yargs)![](https://img.shields.io/npm/dt/yargs.svg)                       |
+| @inquirer/prompts | A collection of common interactive command line user interfaces.                                                          | [Link to npm](https://www.npmjs.com/package/@inquirer/prompts) | [Link to GitHub](https://github.com/SBoudrias/Inquirer.js) ⭐ 21,635 \| 🐛 17 \| 🌐 TypeScript \| 📅 2026-10-12                      | ![](https://img.shields.io/github/stars/sboudrias/inquirer.js)![](https://img.shields.io/npm/dt/@inquirer/prompts.svg) |
+| ink               | Ink provides the same component-based UI building experience that React offers in the browser, but for command-line apps. | [Link to npm](https://www.npmjs.com/package/ink)               | [Link to Github](https://github.com/vadimdemedes/ink) ⭐ 40,103 \| 🐛 31 \| 🌐 TypeScript \| 📅 2026-10-03                           | ![](https://img.shields.io/github/stars/vadimdemedes/ink)![](https://img.shields.io/npm/dt/ink.svg)                    |
 | pastel            | Next.js-like framework for CLIs made with Ink.                                                                            | [Link to npm](https://www.npmjs.com/package/pastel)            | [Link to Github](https://github.com/vadimdemedes/pastel) ⭐ 2,410 \| 🐛 19 \| 🌐 TypeScript \| 📅 2026-03-21                         | ![](https://img.shields.io/github/stars/vadimdemedes/pastel)![](https://img.shields.io/npm/dt/pastel.svg)              |
 | ink UI            | Collection of customizable UI components for CLIs made with Ink.                                                          | [Link to npm](https://www.npmjs.com/package/@inkjs/ui)         | [Link to Github](https://github.com/vadimdemedes/ink-ui) ⭐ 2,072 \| 🐛 21 \| 🌐 TypeScript \| 📅 2024-05-22                         | ![](https://img.shields.io/github/stars/vadimdemedes/ink-ui)![](https://img.shields.io/npm/dt/@inkjs/ui.svg)           |
 | blessed           | A curses-like library with a high level terminal interface API for node.js.                                               | [Link to npm](https://www.npmjs.com/package/blessed)           | [Link to GitHub](https://github.com/chjj/blessed) ⭐ 11,888 \| 🐛 254 \| 🌐 JavaScript \| 📅 2024-03-22                              | ![](https://img.shields.io/github/stars/chjj/blessed)![](https://img.shields.io/npm/dt/blessed.svg)                    |
@@ -1314,7 +1314,7 @@ References for [Blamer npm package vulnerable to argument injection](https://www
 | clack             | Effortlessly build beautiful command-line apps                                                                            | [Link to npm](https://www.npmjs.com/package/@clack/prompts)    | [Link to GitHub](https://github.com/natemoo-re/clack/tree/main/packages/prompts) ⭐ 8,102 \| 🐛 86 \| 🌐 TypeScript \| 📅 2026-10-13 | ![](https://img.shields.io/github/stars/natemoo-re/clack)![](https://img.shields.io/npm/dt/@clack/prompts.svg)         |
 | top CLI           | Top CLI framework                                                                                                         |                                                                | [Link to GitHub](https://github.com/TopCli)                                                                                         |                                                                                                                        |
 | termcn            | Beautiful terminal CLIs                                                                                                   |                                                                | [Link to GitHub](https://www.termcn.dev)                                                                                            |                                                                                                                        |
-| Optique           | Type-safe combinatorial CLI parser for TypeScript                                                                         | [Link to npm](https://www.npmjs.com/package/@optique/core)     | [Link to GitHub](https://github.com/dahlia/optique) ⭐ 737 \| 🐛 44 \| 🌐 TypeScript \| 📅 2026-10-13                                |                                                                                                                        |
+| Optique           | Type-safe combinatorial CLI parser for TypeScript                                                                         | [Link to npm](https://www.npmjs.com/package/@optique/core)     | [Link to GitHub](https://github.com/dahlia/optique) ⭐ 737 \| 🐛 10 \| 🌐 TypeScript \| 📅 2026-10-14                                |                                                                                                                        |
 
 ### 11.2 CLI Tools Table
 
@@ -1322,7 +1322,7 @@ CLI projects often need supporting tools beyond the libraries and frameworks use
 
 | Name                       | Description                                                                         | Install                                                                                                             | GitHub                                                                                                         | Use case                                                          |
 | -------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| VHS                        | A tool for scripting, recording, and rendering terminal sessions as GIFs or videos. | [Installation docs](https://github.com/charmbracelet/vhs#installation) ⭐ 21,110 \| 🐛 175 \| 🌐 Go \| 📅 2026-10-01 | [Link to GitHub](https://github.com/charmbracelet/vhs) ⭐ 21,110 \| 🐛 175 \| 🌐 Go \| 📅 2026-10-01            | Create repeatable CLI demos for READMEs, docs, and release notes. |
+| VHS                        | A tool for scripting, recording, and rendering terminal sessions as GIFs or videos. | [Installation docs](https://github.com/charmbracelet/vhs#installation) ⭐ 21,120 \| 🐛 177 \| 🌐 Go \| 📅 2026-10-01 | [Link to GitHub](https://github.com/charmbracelet/vhs) ⭐ 21,120 \| 🐛 177 \| 🌐 Go \| 📅 2026-10-01            | Create repeatable CLI demos for READMEs, docs, and release notes. |
 | @oclif/plugin-autocomplete | An oclif plugin for generating shell autocomplete support.                          | [Link to npm](https://www.npmjs.com/package/@oclif/plugin-autocomplete)                                             | [Link to GitHub](https://github.com/oclif/plugin-autocomplete) ⭐ 95 \| 🐛 10 \| 🌐 TypeScript \| 📅 2026-10-12 | Add completion support to oclif-based CLIs.                       |
 | tabtab                     | Completion helpers for Node.js CLI programs.                                        | [Link to npm](https://www.npmjs.com/package/tabtab)                                                                 | [Link to GitHub](https://github.com/mklabs/tabtab) ⭐ 376 \| 🐛 43 \| 🌐 JavaScript \| 📅 2023-01-04            | Build custom Bash, Zsh, and Fish completion flows.                |
 
@@ -1346,7 +1346,7 @@ Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing 
 
 **Node.js CLI Apps Best Practices** © [Liran Tal](https://github.com/lirantal), Released under [CC BY-SA 4.0](./LICENSE) License.
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) ⭐ 8,111 | 🐛 86 | 🌐 MDX | 📅 2026-10-13 specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) ⭐ 8,110 | 🐛 85 | 🌐 MDX | 📅 2026-10-14 specification. Contributions of any kind welcome!
 
 <!-- Project Logo -->
 
@@ -1364,4 +1364,4 @@ This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Intern
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-13._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-14._
