@@ -173,7 +173,7 @@
                 "open_issues": 19,
                 "owner": "oclif",
                 "repo": "oclif",
-                "stars": 9601,
+                "stars": 9604,
                 "topics": [
                   "cli",
                   "nodejs",
@@ -216,11 +216,11 @@
                 "id": 10114077,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-10-20T19:08:10Z",
+                "last_commit": "2026-10-22T15:00:52Z",
                 "open_issues": 16,
                 "owner": "SBoudrias",
                 "repo": "Inquirer.js",
-                "stars": 21637,
+                "stars": 21636,
                 "topics": [
                   "cli",
                   "command-line",
@@ -250,7 +250,7 @@
                 "open_issues": 33,
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 40135,
+                "stars": 40145,
                 "topics": [
                   "cli",
                   "command-line",
@@ -278,7 +278,7 @@
                 "open_issues": 19,
                 "owner": "vadimdemedes",
                 "repo": "pastel",
-                "stars": 2410,
+                "stars": 2409,
                 "topics": [
                   "cli",
                   "command-line",
@@ -304,7 +304,7 @@
                 "open_issues": 21,
                 "owner": "vadimdemedes",
                 "repo": "ink-ui",
-                "stars": 2073,
+                "stars": 2074,
                 "topics": [
                   "ink",
                   "react",
@@ -384,7 +384,7 @@
                 "open_issues": 5,
                 "owner": "vue-terminal",
                 "repo": "vue-termui",
-                "stars": 978,
+                "stars": 979,
                 "topics": [
                   "custom-renderer",
                   "terminal",
@@ -410,7 +410,7 @@
                 "open_issues": 93,
                 "owner": "bombshell-dev",
                 "repo": "clack",
-                "stars": 8111,
+                "stars": 8112,
                 "topics": [
                   "cli",
                   "command-line",
@@ -471,7 +471,7 @@
                 "open_issues": 177,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 21164,
+                "stars": 21171,
                 "topics": [
                   "ascii",
                   "cli",
@@ -501,7 +501,7 @@
                 "open_issues": 177,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 21164,
+                "stars": 21171,
                 "topics": [
                   "ascii",
                   "cli",
@@ -567,7 +567,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-21T20:51:24.418Z",
+    "last_updated": "2026-10-22T20:44:40.388Z",
     "original_repository_info": {
       "archived": false,
       "description": "The largest Node.js CLI Apps best practices list ✨",
