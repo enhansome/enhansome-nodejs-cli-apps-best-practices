@@ -19,7 +19,7 @@
             "open_issues": 7,
             "owner": "tj",
             "repo": "commander.js",
-            "stars": 28463,
+            "stars": 28462,
             "topics": []
           },
           "first_seen": "2026-08-29T01:08:16.218Z"
@@ -135,7 +135,7 @@
                 "id": 133880916,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-11-14T13:43:23Z",
+                "last_commit": "2026-11-21T13:43:34Z",
                 "open_issues": 10,
                 "owner": "oclif",
                 "repo": "plugin-autocomplete",
@@ -216,8 +216,8 @@
                 "id": 10114077,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-11-20T21:56:51Z",
-                "open_issues": 24,
+                "last_commit": "2026-11-21T20:52:32Z",
+                "open_issues": 14,
                 "owner": "SBoudrias",
                 "repo": "Inquirer.js",
                 "stars": 21643,
@@ -246,11 +246,11 @@
                 "id": 94061307,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-11-19T07:50:13Z",
-                "open_issues": 33,
+                "last_commit": "2026-11-21T17:18:44Z",
+                "open_issues": 32,
                 "owner": "vadimdemedes",
                 "repo": "ink",
-                "stars": 40312,
+                "stars": 40315,
                 "topics": [
                   "cli",
                   "command-line",
@@ -407,10 +407,10 @@
                 "language": "TypeScript",
                 "license": "NOASSERTION",
                 "last_commit": "2026-11-11T10:17:57Z",
-                "open_issues": 100,
+                "open_issues": 101,
                 "owner": "bombshell-dev",
                 "repo": "clack",
-                "stars": 8140,
+                "stars": 8142,
                 "topics": [
                   "cli",
                   "command-line",
@@ -471,7 +471,7 @@
                 "open_issues": 181,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 21361,
+                "stars": 21366,
                 "topics": [
                   "ascii",
                   "cli",
@@ -501,7 +501,7 @@
                 "open_issues": 181,
                 "owner": "charmbracelet",
                 "repo": "vhs",
-                "stars": 21361,
+                "stars": 21366,
                 "topics": [
                   "ascii",
                   "cli",
@@ -527,7 +527,7 @@
                 "id": 133880916,
                 "language": "TypeScript",
                 "license": "MIT",
-                "last_commit": "2026-11-14T13:43:23Z",
+                "last_commit": "2026-11-21T13:43:34Z",
                 "open_issues": 10,
                 "owner": "oclif",
                 "repo": "plugin-autocomplete",
@@ -567,7 +567,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-20T23:18:15.012Z",
+    "last_updated": "2026-11-21T22:18:42.640Z",
     "original_repository_info": {
       "archived": false,
       "description": "The largest Node.js CLI Apps best practices list ✨",
@@ -575,11 +575,11 @@
       "id": 230675887,
       "language": "JavaScript",
       "license": "CC-BY-SA-4.0",
-      "last_commit": "2026-07-08T19:57:50Z",
-      "open_issues": 0,
+      "last_commit": "2026-11-21T13:17:34Z",
+      "open_issues": 1,
       "owner": "lirantal",
       "repo": "nodejs-cli-apps-best-practices",
-      "stars": 4146,
+      "stars": 4147,
       "topics": [
         "awesome",
         "awesome-list",
@@ -591,7 +591,7 @@
         "nodejs-cli"
       ]
     },
-    "original_repository_sha": "e6374e4f64a4708cc01d3a398cb15e532ab3d847",
+    "original_repository_sha": "6a3735f18eca55a0712aef9d3d6017b6b8346f7f",
     "enhanced_repository": "enhansome/enhansome-nodejs-cli-apps-best-practices",
     "enhanced_repository_description": null,
     "title": "Awesome 1 Command Line Experience with stars"
